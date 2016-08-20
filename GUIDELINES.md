@@ -1,7 +1,13 @@
 # Guidelines For New Projects
 
 ## Hello
+Welcome to the team! We're happy you're here and look forward to the amazing software you'll build with us.
+
+We value [Convention over Configuration][cc] and use a standard application architecture across all our projects. 
+
 Unless specified otherwise, please follow these guidelines for all new projects.
+
+[cc]: https://en.wikipedia.org/wiki/Convention_over_configuration
 
 ## Start With This Repo
 We use this [Base Repo][br] to standardize our application architecture. Please review [README.md][rm] for details on each file and folder in the Base Repo.
@@ -19,6 +25,9 @@ We use Git and [Github Flow][ghf] as our version control system. Please follow B
 
 ## Use npm
 We use npm as our package manager and task runner. Please follow Best Practice for working with npm modules and `npm run` scripts.
+
+## Use Travis CI
+We use Travis CI as our integration server of choice. Please follow Best Practice for working with Travis CI.
 
 ## Use Angular 2
 Angular is our JavaScript framework of choice. Use [Angular 2][a2] unless [Angular 1][a1] is asked for by name.
@@ -55,3 +64,5 @@ All components should be self contained and follow [Unix philosophy][up]:
 
 [up]: https://en.wikipedia.org/wiki/Unix_philosophy
 
+## Use Zero-Based Indexing
+Lists and indexes should always start with zero. For example, the existence of `dev_server_01` implies the existance of `dev_server_00`.
