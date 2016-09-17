@@ -15,6 +15,11 @@ We use this [Base Repo][br] to standardize our application architecture. Please 
 [br]: https://github.com/dperuo/base-repo
 [rm]: https://github.com/dperuo/base-repo/blob/master/README.md
 
+## Use EditorConfig
+We use [EditorConfig][ec] to standardize files across team members. Please install the correct EditorConfig plugin for your text editor of choice.
+
+[ec]: http://editorconfig.org/
+
 ## Use Vagrant
 We use Vagrant to standardize our development environment across computers. Please follow Best Practice for working with Vagrant projects.
 
@@ -50,7 +55,7 @@ We use [JSDoc][jsd] and [TypeDoc][tsd] as our documentation system. Please follo
 [jsd]: https://github.com/jsdoc3/jsdoc
 [tsd]: https://github.com/TypeStrong/typedoc
 
-# Use Bootstrap for Sass
+## Use Bootstrap for Sass
 [Bootstrap for Sass][bs] is our CSS framework of choice. Please follow Best Practice for working with Bootstrap.
 
 [bs]: https://github.com/twbs/bootstrap-sass
